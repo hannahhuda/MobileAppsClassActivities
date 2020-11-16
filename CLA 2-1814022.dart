@@ -9,16 +9,12 @@ import 'calculation.dart';
 //Separate file for class (calculation.dart) and execution (<CLA2-matricno>.dart
 
 void main() {
-  stdout.write("Input: "); //21, 23, 12, 45, 39, 40
-  var input = stdin.readLineSync();
-  List<String> lstring = input.split(", ");
-  List<num> list = lstring.map(num.parse).toList();
-  print(list);
-
-  calculation.calcSummation(list);
-  calculation.calcAverage(list);
-  calculation.calcDivision(list);
-  calculation.calcSubraction(list);
-  calculation.calcMultiplication(list);
-  display();
+  calculation calc = new calculation();
+  calc.input();
+  calc.setSum();
+  calc.setAvg();
+  calc.setDivision();
+  calc.setSubtract();
+  calc.setMultiply();
+  calc.display();
 }
