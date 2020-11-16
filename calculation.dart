@@ -2,92 +2,87 @@ import 'dart:io';
 
 //class declaration
 class calculation {
-  //double sum = 0;
-  //double avg = 0;
-  //double division = 1.0;
-  //double multiply = 0;
-  //double subtract = 0;
+  //private modifier
+  dynamic _list;
+  var _sum;
+  var _avg;
+  var _division;
+  var _multiply;
+  var _subtract;
 
-  calculation.calcSummation(list) {
-    for (int i = 0; i < list.length; ++i) {
-      sum += list[i];
-    }
-  }
-
-  calculation.calcAverage(list) {
-    avg = sum / list.length;
-  }
-
-  calculation.calcDivision(list) {
-    division = list[0] / division;
-    for (int i = 1; i < list.length; i++) {
-      division = division / list[i];
-    }
-  }
-
-  calculation.calcSubraction(list) {
-    subtract = list.reduce((value, element) => value - element);
-  }
-
-  calculation.calcMultiplication(list) {
-    multiply = list.reduce((value, element) => value * element);
+  void input() {
+    stdout.write("Input: ");
+    var input = stdin.readLineSync();
+    dynamic ltemp = input.split(", ");
+    dynamic ltemp1 = ltemp.map(int.parse).toList();
+    _list = ltemp1;
   }
 
   //setter sum
-  void set sum(list) {
-    sum = 0;
+  void setSum() {
+    _sum = 0;
+    for (int i = 0; i < _list.length; ++i) {
+      _sum += _list[i];
+    }
   }
 
   //getter sum
-  double get sum {
-    return sum;
+  dynamic getSum() {
+    return _sum;
   }
 
   //setter average
-  void set avg(list) {
-    avg = 0;
+  void setAvg() {
+    _avg = 0;
+    _avg = _sum ~/ _list.length;
   }
 
   //getter average
-  double get avg {
-    return avg;
+  dynamic getAvg() {
+    return _avg;
   }
 
   //setter division
-  void set division(list) {
-    division = 1.0;
+  void setDivision() {
+    _division = 1.0;
+    _division = _list[0] / _division;
+    for (int i = 1; i < _list.length; i++) {
+      _division = _division / _list[i];
+    }
   }
 
   //getter division
-  double get division {
-    return division;
+  dynamic getDivision() {
+    return _division;
   }
 
   //setter multiply
-  void set multiply(list) {
-    multiply = 0;
+  void setMultiply() {
+    _multiply = 0;
+    _multiply = _list.reduce((value, element) => value * element);
   }
 
   //getter multiply
-  double get multiply {
-    return multiply;
+  dynamic getMultiply() {
+    return _multiply;
   }
 
   //setter subtraction
-  void set subtract(list) {
-    subtract = 0;
+  void setSubtract() {
+    _subtract = 0;
+    _subtract = _list.reduce((value, element) => value - element);
   }
 
   //getter subtraction
-  dynamic get subtract {
-    return subtract;
+  dynamic getSubtract() {
+    return _subtract;
   }
-}
 
-void display() {
-  stdout.write("Summation: $calculation.sum \n");
-  stdout.write("Average: $calculation.avg \n");
-  stdout.write("Division: $calculation.division \n");
-  stdout.write("Subtraction: $calculation.subtract \n");
-  stdout.write("Multiplication: $calculation.multiply \n");
+  void display() {
+    print("\nSummation: ${getSum()} \n");
+    print("Average: ${getAvg()} \n");
+    print("Division: ${getDivision().toStringAsFixed(8)} \n");
+    print("Subtraction: ${getSubtract()} \n");
+    print("Multiplication: ${getMultiply()} \n");
+  }
 }
