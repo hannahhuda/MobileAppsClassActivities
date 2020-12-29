@@ -26,20 +26,20 @@ Division: 0.00000108
 Subtraction: -138
 Multiplication: 406879200
 
-Code: [Class Activity 1] (https://github.com/hannahhuda/MobileAppsClassActivities/blob/main/CLA1-1814022.dart)
+Code: [Class Activity 1](https://github.com/hannahhuda/MobileAppsClassActivities/blob/main/CLA1-1814022.dart)
 
 ## Class Activity 2: Dart Object-Oriented Programming
 
 Based on the previous class activity (Dart Building Blocks) convert your code implementation to Object-Oriented approach. Your implementation must include the following requirements:
 
-    Appropriate local variables or properties and methods or functions.
-    There are setters and getters for each local variable or property declared.
-    There are calculation and display methods.
-    Local variables or properties must be encapsulated with private modifier.
-    Include appropriate comments.
-    Separate file for class (calculation.dart) and execution (<CLA2-matricno>.dart)
+    1. Appropriate local variables or properties and methods or functions.
+    2. There are setters and getters for each local variable or property declared.
+    3. There are calculation and display methods.
+    4. Local variables or properties must be encapsulated with private modifier.
+    5. Include appropriate comments.
+    6. Separate file for class (calculation.dart) and execution (<CLA2-matricno>.dart)
     
- Code: [Class Activity 2] (https://github.com/hannahhuda/MobileAppsClassActivities/blob/main/CLA%202-1814022.dart) & [Calculation] (https://github.com/hannahhuda/MobileAppsClassActivities/blob/main/calculation.dart)
+ Code: [Class Activity 2](https://github.com/hannahhuda/MobileAppsClassActivities/blob/main/CLA%202-1814022.dart) & [Calculation](https://github.com/hannahhuda/MobileAppsClassActivities/blob/main/calculation.dart)
     
  ## Class Activity 3: Flutter forms and gentures
  
@@ -50,4 +50,4 @@ Based on the previous class activity (Dart Building Blocks) convert your code im
     3. Flutter Form - Gender using Radio Button (FormField)
     4. Form Validation - validator with Error String and Focus Node to highlight the invalid input.
     
- Code: [Class Activity 3] (https://github.com/hannahhuda/MobileAppsClassActivities/blob/main/1814022.dart)
+ Code: [Class Activity 3](https://github.com/hannahhuda/MobileAppsClassActivities/blob/main/1814022.dart)
