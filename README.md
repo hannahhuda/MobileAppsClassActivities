@@ -12,19 +12,19 @@ void main() {
   stdout.write(input + "\n");
 }
 ~~~
-1. You are required to get the input from user. The input can be any size (unlimited values) but only with integer and double data type. For example:
+You are required to get the input from user. The input can be any size (unlimited values) but only with integer and double data type. For example:
 
-Input: 21, 23, 12, 45, 39, 40
-Input: 2.2, 45, 3.6, 6.6, 70
+    Input: 21, 23, 12, 45, 39, 40
+    Input: 2.2, 45, 3.6, 6.6, 70
 
-2. Then split the input into a list by using .split() function. You can refer to Dart API on split function for more details on implementation. Once you have the list, perform mathematical operation on the values. For example:
+Then split the input into a list by using .split() function. You can refer to Dart API on split function for more details on implementation. Once you have the list, perform mathematical operation on the values. For example:
 
-Input: 21, 23, 12, 45, 39, 40
-Summation: 180
-Average: 30
-Division: 0.00000108
-Subtraction: -138
-Multiplication: 406879200
+    Input: 21, 23, 12, 45, 39, 40
+    Summation: 180
+    Average: 30
+    Division: 0.00000108
+    Subtraction: -138
+    Multiplication: 406879200
 
 Code: [Class Activity 1](https://github.com/hannahhuda/MobileAppsClassActivities/blob/main/CLA1-1814022.dart)
 
