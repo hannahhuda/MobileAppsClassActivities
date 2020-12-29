@@ -4,14 +4,14 @@ It's nothing, I just don't want to lose my work.
 ## Class Activity 1: Dart Building Blocks
 
 Given the following readLineSync() function (from dart:io library) to read input from the command line or terminal:
-'''
+'''{
 import 'dart:io';
 void main() {
   stdout.write("Input:");
   var input = stdin.readLineSync();
   stdout.write(input + "\n");
 }
-'''
+}'''
 1. You are required to get the input from user. The input can be any size (unlimited values) but only with integer and double data type. For example:
 
 Input: 21, 23, 12, 45, 39, 40
@@ -26,7 +26,7 @@ Division: 0.00000108
 Subtraction: -138
 Multiplication: 406879200
 
-Code: (https://github.com/hannahhuda/MobileAppsClassActivities/blob/main/CLA1-1814022.dart)
+Code: [Class Activity 1] (https://github.com/hannahhuda/MobileAppsClassActivities/blob/main/CLA1-1814022.dart)
 
 ## Class Activity 2: Dart Object-Oriented Programming
 
@@ -39,7 +39,7 @@ Based on the previous class activity (Dart Building Blocks) convert your code im
     Include appropriate comments.
     Separate file for class (calculation.dart) and execution (<CLA2-matricno>.dart)
     
- Code: (https://github.com/hannahhuda/MobileAppsClassActivities/blob/main/CLA%202-1814022.dart) & (https://github.com/hannahhuda/MobileAppsClassActivities/blob/main/calculation.dart)
+ Code: [Class Activity 2] (https://github.com/hannahhuda/MobileAppsClassActivities/blob/main/CLA%202-1814022.dart) & [Calculation] (https://github.com/hannahhuda/MobileAppsClassActivities/blob/main/calculation.dart)
     
  ## Class Activity 3: Flutter forms and gentures
  
@@ -50,4 +50,4 @@ Based on the previous class activity (Dart Building Blocks) convert your code im
     3. Flutter Form - Gender using Radio Button (FormField)
     4. Form Validation - validator with Error String and Focus Node to highlight the invalid input.
     
- Code: (https://github.com/hannahhuda/MobileAppsClassActivities/blob/main/1814022.dart)
+ Code: [Class Activity 3] (https://github.com/hannahhuda/MobileAppsClassActivities/blob/main/1814022.dart)
