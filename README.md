@@ -4,14 +4,14 @@ It's nothing, I just don't want to lose my work.
 ## Class Activity 1: Dart Building Blocks
 
 Given the following readLineSync() function (from dart:io library) to read input from the command line or terminal:
-'''{
+~~~
 import 'dart:io';
 void main() {
   stdout.write("Input:");
   var input = stdin.readLineSync();
   stdout.write(input + "\n");
 }
-}'''
+~~~
 1. You are required to get the input from user. The input can be any size (unlimited values) but only with integer and double data type. For example:
 
 Input: 21, 23, 12, 45, 39, 40
