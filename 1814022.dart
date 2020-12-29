@@ -1,3 +1,11 @@
+/* Based on the given BMI calculator. You need to modify the existing code and implement the following widgets:
+
+    Flutter Form - Use Form widget.
+    Flutter Form - Weight and Height (TextFormField)
+    Flutter Form - Gender using Radio Button (FormField)
+    Form Validation - validator with Error String and Focus Node to highlight the invalid input.
+*/
+
 import 'package:flutter/material.dart';
 import 'dart:math';
 import 'package:flutter/rendering.dart';
