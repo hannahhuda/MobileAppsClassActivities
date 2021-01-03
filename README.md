@@ -41,7 +41,7 @@ Based on the previous class activity (Dart Building Blocks) convert your code im
     
  Code: [Class Activity 2](https://github.com/hannahhuda/MobileAppsClassActivities/blob/main/CLA%202-1814022.dart) & [Calculation](https://github.com/hannahhuda/MobileAppsClassActivities/blob/main/calculation.dart)
     
- ## Class Activity 3: Flutter forms and gentures
+ ## Class Activity 3: Flutter forms and gestures
  
  Based on the given [BMI calculator](https://github.com/hannahhuda/bmi). You need to modify the existing code and implement the following widgets:
 
